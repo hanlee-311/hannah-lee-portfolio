@@ -1,4 +1,9 @@
 import React from 'react';
+import 'materialize-css/dist/css/materialize.min.css'
+import GitHub from '@material-ui/icons/GitHub'
+import LinkedIn from '@material-ui/icons/LinkedIn'
+import LocalPhone from '@material-ui/icons/LocalPhone'
+import Email from '@material-ui/icons/Email'
 
 function Navbar() {
     return (
@@ -19,14 +24,12 @@ function Navbar() {
                     </ul>
                     <ul id="nav-mobile" class="right hide-on-med-and-down">
                         <li><a class="adjust tooltipped" href="https://github.com/hanlee-311" data-position="bottom"
-                            data-tooltip="Github"><i class="fa fa-github-square fa-lg" aria-hidden="true"></i></a></li>
+                            data-tooltip="Github"><GitHub/></a></li>
                         <li><a class="adjust tooltipped" href="https://www.linkedin.com/in/hannah-lee-9b4889144/"
-                            data-position="bottom" data-tooltip="LinkedIn"><i class="fa fa-linkedin-square fa-lg"
-                                aria-hidden="true"></i></a></li>
-                        <li><a class="adjust tooltipped" href="" data-position="bottom" data-tooltip="919-586-4623"><i
-                            class="fa fa-phone-square fa-lg" aria-hidden="true"></i></a></li>
+                            data-position="bottom" data-tooltip="LinkedIn"><LinkedIn/></a></li>
+                        <li><a class="adjust tooltipped" href="" data-position="bottom" data-tooltip="919-586-4623"><LocalPhone/></a></li>
                         <li><a class="adjust tooltipped" href="mailto:013hannah.a.lee@gmail.com" data-position="bottom"
-                            data-tooltip="013hannah.a.lee@gmail.com"><i class="fa fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+                            data-tooltip="013hannah.a.lee@gmail.com"><Email/></a></li>
                     </ul>
                 </div>
             </nav>
