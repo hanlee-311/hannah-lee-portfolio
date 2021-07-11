@@ -17,7 +17,6 @@ function Navbar() {
                     <ul id="nav-mobile" class="left hide-on-med-and-down">
                         <li><a class="nav-hover" href="#home">Home</a></li>
                         <li><a class="nav-hover" href="#about-me">About</a></li>
-                        <li><a class="nav-hover" href="#mySkills">Skills</a></li>
                         <li><a class="nav-hover" href="#myWork">Work</a></li>
                         <li><a class="nav-hover"
                             href="https://drive.google.com/file/d/1c47qMNM724PQA27liFTVaL18BvZVP7tL/view?usp=sharing">Resume</a></li>
