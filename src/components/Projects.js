@@ -37,11 +37,11 @@ function Projects() {
                         <div class="past-work-container">
                             <a href="https://hanlee-311.github.io/weather_app/" target="_blank" rel="noopener noreferrer"><img class="col s4 past-work responsive-img circle" src={WeatherApp} alt="weather-app"></img></a>
                         </div>
-                        </div>
                     </div>
                 </div>
             </div>
-            )
+        </div>
+    )
 };
 
-            export default Projects;
+export default Projects;

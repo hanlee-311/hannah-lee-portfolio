@@ -7,6 +7,7 @@ import SideBar from './components/SideBar';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import AboutMeSmall from './components/AboutMeSmall';
+// import ProjectsSmall from '.components/ProjectsSmall';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
     <AboutMe/>
     <AboutMeSmall/>
     <Projects/>
+    {/* <ProjectsSmall/> */}
     <Footer/>
     </>
   );
