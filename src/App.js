@@ -6,6 +6,7 @@ import Heroimage from './components/Heroimage';
 import SideBar from './components/SideBar';
 import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
+import AboutMeSmall from './components/AboutMeSmall';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
     <SideBar/>
     <Heroimage/>
     <AboutMe/>
+    <AboutMeSmall/>
     <Projects/>
     <Footer/>
     </>

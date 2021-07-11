@@ -1,9 +1,10 @@
 import React from 'react';
-import 'materialize-css/dist/css/materialize.min.css'
-import GitHub from '@material-ui/icons/GitHub'
-import LinkedIn from '@material-ui/icons/LinkedIn'
-import LocalPhone from '@material-ui/icons/LocalPhone'
-import Email from '@material-ui/icons/Email'
+import 'materialize-css/dist/css/materialize.min.css';
+import GitHub from '@material-ui/icons/GitHub';
+import LinkedIn from '@material-ui/icons/LinkedIn';
+import LocalPhone from '@material-ui/icons/LocalPhone';
+import Email from '@material-ui/icons/Email';
+import Spa from '@material-ui/icons/Spa';
 
 function Navbar() {
     return (
@@ -11,9 +12,9 @@ function Navbar() {
             <nav>
                 <div class="nav-wrapper">
                     <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                    <a href="#home" class="brand-logo main-logo center"><i class="fa fa-css3" aria-hidden="true"></i>Full-Stack
+                    <a href="#home" class="brand-logo main-logo center"><Spa/>Full-Stack
                         Developer Deep Dive</a>
-                    <a href="#" class="brand-logo secondary-logo center"><i class="fa fa-css3" aria-hidden="true"></i></a>
+                    <a href="#" class="brand-logo secondary-logo center"><Spa/></a>
                     <ul id="nav-mobile" class="left hide-on-med-and-down">
                         <li><a class="nav-hover" href="#home">Home</a></li>
                         <li><a class="nav-hover" href="#about-me">About</a></li>
