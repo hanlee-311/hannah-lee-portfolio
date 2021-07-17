@@ -9,7 +9,7 @@ import GraphQL from '../assets/images/logo.png';
 
 function SkillsSmall() {
     return (
-        <div id="mySkills" class="light-blue accent-1 small-screen">
+        <div id="my-skills" class="light-blue accent-1 small-screen">
             <h2 class="center-align">-Skills-</h2>
             <div class="col s1 center-align">
                 <img class="col s1 skill-image" src={Javascript} alt="javascript-symbol"></img>

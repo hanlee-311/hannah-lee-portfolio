@@ -5,7 +5,7 @@ import TentacleImage from '../assets/images/tentacle-icon-24.png';
 
 function AboutMeSmall() {
     return (
-        <div id="about-me" class="container section line center-align small-screen">
+        <div id="aboutMe" class="container section line center-align small-screen">
             <img class="col s3 responsive-img tenctical" src={TentacleImage} alt="tentacle-pic"></img>
             <div class="row">
                 <img class="responsive-img circle profile-pic" src={ProfileImage} alt="profile-pic"></img>
