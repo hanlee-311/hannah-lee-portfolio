@@ -5,7 +5,7 @@ import DirectionsBoat from '@material-ui/icons/DirectionsBoat'
 function Footer() {
     return (
         <footer class="page-footer">
-            <div class="container">
+            <div class="colorBackground container">
                 <div class="row">
                     <div class="col s12 center-align">
                         <h5 class="white-text"><DirectionsBoat/> Anchor Away! Thanks for your

@@ -25,15 +25,11 @@ class Sidebar extends Component {
                     <li><a class="nav-hover" href="#myWork">Work</a></li>
                     <li><a class="nav-hover"
                         href="https://drive.google.com/file/d/1c47qMNM724PQA27liFTVaL18BvZVP7tL/view?usp=sharing">Resume</a></li>
-                    <li><a class="dropdown-trigger" href="#!" data-target="dropdown1">Contact<i
-                        class="material-icons right">arrow_drop_down</i></a></li>
-                    <ul id='dropdown1' class='dropdown-content'>
-                        <li><a href="https://github.com/hanlee-311"><GitHub/> GitHub</a></li>
-                        <li><a href="https://www.linkedin.com/in/hannah-lee-9b4889144/"><LinkedIn/> LinkedIn</a></li>
-                        <li><a href=""><LocalPhone/> (919) 586-4623</a></li>
-                        <li><a href="mailto:013hannah.a.lee@gmail.com"><Email/>Email</a>
-                        </li>
-                    </ul>
+
+                    <li><a href="https://github.com/hanlee-311"><GitHub /> GitHub</a></li>
+                    <li><a href="https://www.linkedin.com/in/hannah-lee-9b4889144/"><LinkedIn /> LinkedIn</a></li>
+                    <li><a href=""><LocalPhone /> (919) 586-4623</a></li>
+                    <li><a href="mailto:013hannah.a.lee@gmail.com"><Email /> Email</a></li>
                 </ul>
             </div>
         );

@@ -10,7 +10,7 @@ function Navbar() {
     return (
         <div class="navbar-fixed">
             <nav>
-                <div class="nav-wrapper">
+                <div class="colorBackground nav-wrapper">
                     <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                     <a href="#home" class="brand-logo main-logo center"><Spa/>Full-Stack
                         Developer Deep Dive</a>
@@ -27,7 +27,7 @@ function Navbar() {
                             data-tooltip="Github"><GitHub/></a></li>
                         <li><a class="adjust tooltipped" href="https://www.linkedin.com/in/hannah-lee-9b4889144/"
                             data-position="bottom" data-tooltip="LinkedIn"><LinkedIn/></a></li>
-                        <li><a class="adjust tooltipped" href="" data-position="bottom" data-tooltip="919-586-4623"><LocalPhone/></a></li>
+                        <li><a class="adjust tooltipped" href="" data-position="bottom" data-tooltip="919-586-4623"><LocalPhone/>(919)586-4623</a></li>
                         <li><a class="adjust tooltipped" href="mailto:013hannah.a.lee@gmail.com" data-position="bottom"
                             data-tooltip="013hannah.a.lee@gmail.com"><Email/></a></li>
                     </ul>

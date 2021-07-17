@@ -15,7 +15,7 @@ function Projects() {
                     <h4 class="center-align my-work-subtitles">Most Recent Work</h4>
                     <div class="past-work-container">
                         <a href="https://uncbootcampmusicnotes.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img class="col s8 offset-s2 past-work responsive-img circle" src={MusicNotes} alt="music-notes"></img></a>
-                        <div class="text-wrapper center-align">
+                        <div class="center-align">
                             <p id="one" class="work-title">Music Notes</p>
                         </div>
                     </div>
