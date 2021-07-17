@@ -2,9 +2,11 @@
 
 Everything always could use an upgrade, and my coding portfolio is no exception! Check out my new and improved skills and my lastest coding projects on my new page below!
 
-![Portfolio Demo](./assets/images/demo.gif)
+React was used to build this version of my portfolio.
 
-#### Check Out Here: https://hanlee-311.github.io/hannah-lee-portfolio/
+![Portfolio Demo](./src/assets/images/React-Portfolio.gif)
+
+#### Check Out Here: https://hannah-lee-portfolio.herokuapp.com/
 
 ## Description
 I am a Biology graduate looking to switch careers from reading genetic code to writing computer code. I suppose the art of code has been coded into my DNA! 
