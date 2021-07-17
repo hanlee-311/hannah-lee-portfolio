@@ -16,10 +16,6 @@ nav {
   visibility: hidden;
 }
 
-.adjust {
-  margin-top: -9px;
-}
-
 .nav-hover:hover {
   color: #ffd54f;
 }

@@ -1,15 +1,27 @@
-import React from 'react';
+import React, { Component, useEffect } from 'react';
 import Coverimage from '../assets/images/portfolio-background-image.jpeg';
+import M from "materialize-css";
+import "materialize-css/dist/css/materialize.min.css";
 
-function Heroimage() {
+const Parallax = () => {
+    useEffect(() => {
+        let elements = document.querySelector(".parallax");
+
+        M.Parallax.init(elements);
+    }, []);
+
     return (
-        <div class="parallax-container">
-            <img src={Coverimage} alt="hero-image"></img>
-            <h1 class="left-align name">Hannah Lee</h1>
-            <h1 class="subtitle">In a sea of developers,</h1>
-            <h1 class="subtitle">I'm a great catch!</h1>
-        </div>
+        <>
+            <div id= "home" class="parallax-container">
+                <div class="parallax">
+                    <img src={Coverimage} alt="hero-image"></img>
+                    <h1 class="left-align name">Hannah Lee</h1>
+                    <h1 class="subtitle">In a sea of developers,</h1>
+                    <h1 class="subtitle">I'm a great catch!</h1>
+                </div>
+            </div>
+        </>
     )
-};
+}
 
-export default Heroimage;
+export default Parallax;

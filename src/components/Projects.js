@@ -15,6 +15,9 @@ function Projects() {
                     <h4 class="center-align my-work-subtitles">Most Recent Work</h4>
                     <div class="past-work-container">
                         <a href="https://uncbootcampmusicnotes.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img class="col s8 offset-s2 past-work responsive-img circle" src={MusicNotes} alt="music-notes"></img></a>
+                        <div class="text-wrapper center-align">
+                            <p id="one" class="work-title">Music Notes</p>
+                        </div>
                     </div>
                 </div>
                 <div class="col s6">
@@ -22,20 +25,35 @@ function Projects() {
                     <div class="row">
                         <div class="past-work-container">
                             <a href="https://github.com/hanlee-311/employee-tracker" target="_blank" rel="noopener noreferrer"><img class="col s4 offset-s1 past-work responsive-img circle" src={EmployeeTracker} alt="employee-tracker"></img></a>
+                            <div class="center-align text-wrapper-2">
+                                <p id="two" class="work-title center-align">Employee Tracker</p>
+                            </div>
                         </div>
                         <div class="past-work-container">
                             <a href="https://hanlee-311.github.io/Just-Your-Type/" target="_blank" rel="noopener noreferrer"><img class="col s4 offset-s1 past-work responsive-img circle" src={JYTHome} alt="just-your-type"></img></a>
+                            <div class="center-align text-wrapper-2">
+                                <p id="three" class="work-title center-align">Just Your Type</p>
+                            </div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="past-work-container">
                             <a href="https://hanlee-311.github.io/code-quiz/" target="_blank" rel="noopener noreferrer"><img class="col s4 past-work responsive-img circle" src={CodingQuiz} alt="coding-quiz"></img></a>
+                            <div class="center-align text-wrapper-2">
+                                <p id="four" class="work-title center-align">Coding Quiz</p>
+                            </div>
                         </div>
                         <div class="past-work-container">
                             <a href="https://hanlee-311.github.io/hannah-lee-portfolio-2/" target="_blank" rel="noopener noreferrer"><img class="col s4 past-work responsive-img circle" src={FirstPortfolio} alt="first-portfolio"></img></a>
+                            <div class="center-align text-wrapper-2">
+                                <p id="five" class="work-title center-align">First Portfolio</p>
+                            </div>
                         </div>
                         <div class="past-work-container">
                             <a href="https://hanlee-311.github.io/weather_app/" target="_blank" rel="noopener noreferrer"><img class="col s4 past-work responsive-img circle" src={WeatherApp} alt="weather-app"></img></a>
+                            <div class="center-align text-wrapper-2">
+                                <p id="six" class="work-title center-align">Weather App</p>
+                            </div>
                         </div>
                     </div>
                 </div>
