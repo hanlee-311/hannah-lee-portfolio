@@ -8,6 +8,8 @@ import AboutMe from './components/AboutMe';
 import Projects from './components/Projects';
 import AboutMeSmall from './components/AboutMeSmall';
 import ProjectsSmall from './components/ProjectsSmall';
+import Skills from './components/Skills';
+import SkillsSmall from './components/SkillsSmall';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
     <Parallax/>
     <AboutMe/>
     <AboutMeSmall/>
+    <Skills/>
+    <SkillsSmall/>
     <Projects/>
     <ProjectsSmall/>
     <Footer/>
